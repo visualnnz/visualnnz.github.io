@@ -24,19 +24,19 @@ name                     : "visualnnz"
 description              : "visualnnz의 프로그래밍 성장 기록 블로그"
 url                      : "https://visualnnz.github.io" # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "visualnnz/visualnnz.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/cat with thumbs up.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/avatar/ruby.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+enable_copy_code_button  : true # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "visualnnz" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -45,8 +45,9 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-dark" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
+    label                : "Comment" # Optional - must be existing label.
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -114,20 +115,20 @@ analytics:
 # Site Author
 author:
   name             : "visualnnz"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "visualnnz의 프로그래밍 성장 기록 블로그"
+  avatar           : /assets/images/avatar/cat_computer.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "visualnnz의 프로그래밍 성장 기록"
   location         : "South Korea"
   email            : # "visualnnz@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:visualnnz@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://visualnnz.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/visualnnz"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://visualnnz.github.io"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url: "https://twitter.com/"
@@ -141,6 +142,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:visualnnz@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/visualnnz"
@@ -263,6 +267,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -271,6 +276,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 
 # Archives
@@ -319,10 +325,14 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false # true: 최대 n분 소요 표시     false: 표시 안함
       comments: true # true or false
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: Contents
+      typora-root-url: C:\Users\NNZ\Desktop\Programming\GitHub_Pages\visualnnz.github.io
 
 date_format: "%Y. %m. %d."
