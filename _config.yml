@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "visualnnz"
-  avatar           : /assets/images/avatar/cat_computer.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/avatar/pikachu_pixel_white_bg.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "visualnnz의 프로그래밍 성장 기록"
   location         : "South Korea"
   email            : # "visualnnz@gmail.com"
