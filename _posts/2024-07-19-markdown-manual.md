@@ -23,11 +23,8 @@ title:
 categories: 
 tags: [, , ,]
 author: visualnnz
-toc: true
-search: true or false
 header:
   teaser: /assets/images/~~~
-use_math: true or false
 ---
 ```
 

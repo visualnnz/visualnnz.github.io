@@ -333,6 +333,7 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: Contents
+      use_math: true
       typora-root-url: C:\Users\NNZ\Desktop\Programming\GitHub_Pages\visualnnz.github.io
 
 date_format: "%Y. %m. %d."
