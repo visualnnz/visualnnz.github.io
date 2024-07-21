@@ -5,7 +5,7 @@ categories: Data_Structures
 tags: [Study, Problem_Solving]
 author: visualnnz
 header:
-  teaser: /assets/images/2024-07-21-ds-ex0701-binarytree/0_BinaryTree.jpg
+  teaser: /assets/images/2024-07-22-ds-ex0701-binarytree/0_BinaryTree.jpg
 ---
 
 # Intro
