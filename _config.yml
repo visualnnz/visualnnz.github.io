@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "visualnnz's LEVEL UP Diary"
+title                    : "LEVEL UP Diary"
 title_separator          : "|"
 subtitle                 : "Problem Solving" # site tagline that appears below site title in masthead
 name                     : "visualnnz"
-description              : "visualnnz의 프로그래밍 성장 기록 블로그"
+description              : "프로그래밍 성장 기록"
 url                      : "https://visualnnz.github.io" # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "visualnnz/visualnnz.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -116,7 +116,7 @@ analytics:
 author:
   name             : "visualnnz"
   avatar           : /assets/images/avatar/pikachu_pixel_white_bg.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "visualnnz의 프로그래밍 성장 기록"
+  bio              : ""
   location         : "South Korea"
   email            : # "visualnnz@gmail.com"
   links:
