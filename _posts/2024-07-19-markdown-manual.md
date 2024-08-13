@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Markdown을 통한 게시글 작성 지침서
+title: Markdown(*.md) 작성 지침서
 categories: Manual
 tags: [Frame, Markdown]
 author: visualnnz
@@ -34,7 +34,7 @@ header:
 
 
 
-# 텍스트 강조용 배너
+# 배너
 
 **Text 123**
 {: .notice}
@@ -79,6 +79,53 @@ header:
 ---
 
 
+
+# 글자
+
+<br>
+
+## 글자 색상
+
+<span style="color: #FF0000">red</span>
+
+<span style="color: #00B900">green</span>
+
+<span style="color: #0000FF">blue</span>
+
+<span style="color: #ffd53d">yellow</span>
+
+<br>
+
+```markdown
+<span style="color: #FF0000">red</span>
+<span style="color: #00B900">green</span>
+<span style="color: #0000FF">blue</span>
+<span style="color: #ffd53d">yellow</span>
+```
+
+<br>
+
+## 하이라이트
+
+<span style="background-color: #fff551">노란형광펜</span>
+
+<span style="background-color: #7cffa4">초록형광펜</span>
+
+<span style="background-color: #f7bd5e">주황형광펜</span>
+
+<br>
+
+```markdown
+<span style="background-color: #fff551">노란형광펜</span>
+<span style="background-color: #7cffa4">초록형광펜</span>
+<span style="background-color: #f7bd5e">주황형광펜</span>
+```
+
+
+
+<br>
+
+***
 
 # 버튼
 
