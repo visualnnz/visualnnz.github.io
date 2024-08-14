@@ -1,11 +1,11 @@
 ---
 layout: single
-title: GitHub Commit Message Convention
+title: Git Commit Message Convention
 categories: Manual
 tags: [Git, Memo]
 author: visualnnz
 header:
-  teaser: /assets/images/~~~
+  teaser: /assets/images/2024-08-14-git-commit-message-convention/git-message.png
 ---
 
 # Git 커밋 메시지 컨벤션의 중요성
@@ -64,7 +64,7 @@ header:
 | :------------------: | :----------------------------------------------------------: |
 |       **Feat**       |                       새로운 기능 추가                       |
 |       **Fix**        |                          버그 수정                           |
-|      **Update**      |                        기존 코드 변경                        |
+|      **Update**      |                     *비즈니스 로직 변경                      |
 |       **Docs**       |                          문서 수정                           |
 |      **Style**       | 코드 포맷 변경, 세미콜론(;) 누락 수정, 코드 수정이 없는 경우 |
 |     **Comment**      |                      주석 추가 및 변경                       |
@@ -78,6 +78,8 @@ header:
 | **!BREAKING CHANGE** |                      대대적인 API 변경                       |
 |     **!HOTFIX**      |                 긴급하고 치명적인 버그 수정                  |
 |       **Init**       |                      프로젝트 초기 생성                      |
+
+*비즈니스 로직: 실제 어떤 프로그램에서 request의 처리나, 특정한 기능 수행을 위해 **데이터를 처리하는 실질적인 로직**
 
 
 
