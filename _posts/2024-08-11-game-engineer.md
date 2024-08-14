@@ -57,11 +57,12 @@ header:
 
 
 <div class="notice--success">
-    <h4>※ 포트폴리오 Tip</h4>
+    <span style="color: #FF0000"><strong>※ 포트폴리오 Tip</strong></span>
     <br>
     <p> 프로젝트를 진행하면서 <strong>스스로 문제점을 발견</strong>하고, 이를 <strong>해결하기 위해 어떤 노력을 했는지</strong>, <strong>그 과정에서 배운점</strong>은 무엇인지를 중점으로 기록
     </p>
 </div>
+
 
 <br>
 
