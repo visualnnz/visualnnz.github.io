@@ -24,7 +24,7 @@ categories:
 tags: [, , ,]
 author: visualnnz
 header:
-  teaser: /assets/images/~~~
+  teaser: /images/~~~
 ---
 ```
 
