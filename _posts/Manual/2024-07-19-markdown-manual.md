@@ -6,9 +6,9 @@ tags: [Frame, Markdown]
 author: visualnnz
 toc: true
 use_math: true
+header:
+  teaser: /images/2024-07-19-markdown-manual/markdown_logo.png
 ---
-
-
 
 
 
