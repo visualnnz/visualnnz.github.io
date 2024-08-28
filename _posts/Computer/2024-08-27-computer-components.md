@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 컴퓨터 부품 기초지식
+title: 컴퓨터 주요 부품 개요
 categories: Computer
 tags: [H/W, Memo]
 author: visualnnz
@@ -29,6 +29,8 @@ header:
 ***
 
 # CPU
+
+![amd_ryzen9_7900](../../images/2024-08-27-computer-components/amd_ryzen9_7900.png)
 
 <span style="background-color: #fff551">**CPU**는 곧 컴퓨터의 속도</span>
 
@@ -95,6 +97,8 @@ header:
 
 # 메인보드(마더보드)
 
+![ASRock_B650M_PG_Riptide](../../images/2024-08-27-computer-components/ASRock_B650M_PG_Riptide.jpg)
+
 <span style="background-color: #7cffa4">컴퓨터 본체 내의 다양한 부품들을 연결하는 부품</span>
 
 메인보드는 <span style="background-color: #fff551">다른 모든 부품들을 연결해주기 때문에 아주 중요한 부품이다.</span>
@@ -128,7 +132,71 @@ x16에 그래픽카드를 장착한다고 항상 16배속으로 동작하는 것
 
 ***
 
+# 시스템 메모리(RAM)
+
+![hynix_ddr5_memory](../../images/2024-08-27-computer-components/hynix_ddr5_memory.png)
+
+<span style="background-color: #7cffa4">사용자가 자유롭게 내용을 읽고 쓰고 지울 수 있는 **기억장치**</span>
+
+일반적으로 '**메모리**'라고 하면 **시스템 메모리**를 의미한다.
+
+&nbsp;&nbsp;&nbsp;&nbsp; └ (통상적으로) 메모리 = 시스템 메모리 = 메인 메모리 = 주기억장치 = RAM
+
+컴퓨터가 켜지는 순간부터 CPU는 연산을 하고 동작에 필요한 모든 내용이 전원이 유지되는 내내 시스템 메모리에 저장된다. 전원이 차단되면 메인 메모리 상의 내용이 지워지는 **휘발성** 기억 장치이다.
+
+<br>
+
+- 휘발성과 비휘발성
+
+- 디스크 페이징(스왑, 스와핑) 관련
+
+- RAM의 성능
+
+  - 메모리 레이턴시(Memory Latency)
+  - 메모리 쓰루풋 or 대역폭(Memory Throughput)
+
+- 다다익램과 용량에 따른 체감 성능
+
+- 논리적 용도별 종류
+
+  - 메인 메모리
+  - 버퍼 메모리
+  - 캐시 메모리
+  - 램 디스크
+
+- 물리적 특성별 종류
+
+  - SRAM
+
+  - DRAM
+
+    - SDRAM
+      - DDR SDRAM
+
+    - GDRAM
+      - VDRAM(VRAM)
+
+- 가격 변동
+
+- 기타
+
+
+
+<br>
+
+***
+
 # 보조기억장치(SSD)
+
+![samsung_NVMe_SSD_960_EVO](../../images/2024-08-27-computer-components/samsung_NVMe_SSD_960_EVO.jpg)
+
+**SSD**(**S**olid-**S**tate **D**rive)
+
+<span style="background-color: #7cffa4">기계적 구동부위가 없는 **반도체**를 사용하는 드라이브</span>
+
+NAND 플래시 메모리와 고성능 컨트롤러를 탑재하여 C 드라이브 및 HDD의 지위를 대체하고 있는 보조 기억 장치이다.
+
+
 
 |        종류        | 상대적 속도 |
 | :----------------: | :---------: |
@@ -142,3 +210,125 @@ NVMe SSD는 SATA SSD보다 빠르지만 SATA SSD보다 발열이 더 많이 나�
 
 M.2 **NVMe** SSD >> M.2 **SATA** SSD = 2.5" **SATA** SSD
 
+<br>
+
+- 구성요소
+  - 인터페이스
+    - 물리 인터페이스
+    - 논리 인터페이스
+- 장단점
+- 최적화 팁
+- NVMe
+
+<br>
+
+***
+
+# 그래픽 카드
+
+![rtx_4060_ti](../../images/2024-08-27-computer-components/rtx_4060_ti.jpg)
+
+**그래픽 카드**
+
+= Graphics Card
+
+= VGA(**V**ideo **G**raphics **A**rray)
+
+<span style="background-color: #7cffa4">**CPU의 명령 하에** 이루어지는 **그래픽 작업을 전문적으로 빠르게 처리**하고 **디지털 신호를 영상 신호로 바꿔** 모니터로 전송하는 장치</span>
+
+<br>
+
+## GPU VS 그래픽 카드
+
+**GPU**: <span style="background-color: #7cffa4">그래픽 카드 내부에서 그래픽 처리를 담당하는 하나의 **부품**</span>
+
+**그래픽 카드**: <span style="background-color: #7cffa4">핵심 부품인 GPU와 함께 팬 등을 포함한 하나의 **완제품**</span>
+
+<br>
+
+## 구성
+
+- **PCB**(Printed Circuit Board)
+- **프로세서**(GPU)
+- **그래픽 메모리 칩(모듈)**
+- **디스플레이 출력 단자**
+- **기타**
+
+<br>
+
+***
+
+# 파워서플라이
+
+
+
+![SF-700R12ST_Mega_80Plus_230V_EU](../../images/2024-08-27-computer-components/SF-700R12ST_Mega_80Plus_230V_EU-1724850724412-6.jpg)
+
+**파워 서플라이**
+
+= PSU(**P**ower **S**upply **U**nit)
+
+<span style="background-color: #7cffa4">컴퓨터 부품에 필요한 전압과 전류로 변환해 **전원을 공급하는** 컴퓨터 부품</span>
+
+일반적으로 220V 혹은 110V 가정용 교류 전원을 직류 12V, 5V, 3.3V 등 컴퓨터 부품에 맞는 전압과 전류로 바꿔주는 **변압기**를 말한다.
+
+<br>
+
+- 중요성
+
+  - 파워의 용량(출력) 선택
+
+  - 좋은 파워를 고르는 법
+
+- 유지보수
+
+  - 청소
+  - 팬 교체
+
+<br>
+
+***
+
+# 컴퓨터 케이스
+
+![darkFlash_DS900_ARGB_white](../../images/2024-08-27-computer-components/darkFlash_DS900_ARGB_white.jpg)
+
+<span style="background-color: #7cffa4">컴퓨터의 부품들을 고정하고 보호하는 **상자형의 껍데기**</span>
+
+케이스를 사용하는 이유는 전기 합선이나 먼지 등 외부 이물질 혼입으로 인한 고장의 위험을 줄이기 위함이며, 겉으로 드러나는 부분이라 디자인에 공들인 케이스 상품들이 여럿 시판되고 있다.
+
+<br>
+
+- 제품 특징
+- 재질
+  - 철
+  - 알루미늄
+  - 아크릴
+  - 강화 유리
+  - 폴리카보네이트
+- 파워 장착 방식
+- 케이스의 종류
+
+<br>
+
+***
+
+# 컴퓨터 쿨러
+
+![Thermalright_Peerless_Assassin_120_SE_Seorin](../../images/2024-08-27-computer-components/Thermalright_Peerless_Assassin_120_SE_Seorin.jpg)
+
+<span style="background-color: #7cffa4">컴퓨터에 사용하는 **냉각기**</span>
+
+<br>
+
+- 개요
+- 종류
+  - CPU 쿨러
+  - 시스템 쿨러
+  - GPU 쿨러
+- 냉각 방식
+  - 수동적 냉각(패시브 쿨링)
+  - 능동적 냉각(액티브 쿨링)
+    - 공랭
+    - 수랭
+- 기타
