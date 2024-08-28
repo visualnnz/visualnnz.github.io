@@ -30,13 +30,13 @@ header:
 
 # CPU
 
-![amd_ryzen9_7900](../../images/2024-08-27-computer-components/amd_ryzen9_7900.png)
+![amd_ryzen9_7900](../../images/2024-08-27-computer-components-outline/amd_ryzen9_7900.png)
 
 <span style="background-color: #fff551">**CPU**는 곧 컴퓨터의 속도</span>
 
 **CPU**는 메모리, 보조기억장치와 늘 함께 유기적으로 동작한다.
 
-![image-20240827161856259](../../images/2024-08-27-computer-components/image-20240827161856259.png)
+![image-20240827161856259](../../images/2024-08-27-computer-components-outline/image-20240827161856259.png)
 
 컴퓨터 내부 부품들은 서로 속도의 차이가 있다.
 
@@ -97,7 +97,7 @@ header:
 
 # 메인보드(마더보드)
 
-![ASRock_B650M_PG_Riptide](../../images/2024-08-27-computer-components/ASRock_B650M_PG_Riptide.jpg)
+![ASRock_B650M_PG_Riptide](../../images/2024-08-27-computer-components-outline/ASRock_B650M_PG_Riptide.jpg)
 
 <span style="background-color: #7cffa4">컴퓨터 본체 내의 다양한 부품들을 연결하는 부품</span>
 
@@ -111,7 +111,7 @@ header:
 
 ## PCI Express 슬롯
 
-![image-20240827205341186](../../images/2024-08-27-computer-components/image-20240827205341186.png)
+![image-20240827205341186](../../images/2024-08-27-computer-components-outline/image-20240827205341186.png)
 
 x1, x4, x8, x16은 **배속**과 **슬롯의 모양**을 의미한다.
 
@@ -134,7 +134,7 @@ x16에 그래픽카드를 장착한다고 항상 16배속으로 동작하는 것
 
 # 시스템 메모리(RAM)
 
-![hynix_ddr5_memory](../../images/2024-08-27-computer-components/hynix_ddr5_memory.png)
+![hynix_ddr5_memory](../../images/2024-08-27-computer-components-outline/hynix_ddr5_memory.png)
 
 <span style="background-color: #7cffa4">사용자가 자유롭게 내용을 읽고 쓰고 지울 수 있는 **기억장치**</span>
 
@@ -188,7 +188,7 @@ x16에 그래픽카드를 장착한다고 항상 16배속으로 동작하는 것
 
 # 보조기억장치(SSD)
 
-![samsung_NVMe_SSD_960_EVO](../../images/2024-08-27-computer-components/samsung_NVMe_SSD_960_EVO.jpg)
+![samsung_NVMe_SSD_960_EVO](../../images/2024-08-27-computer-components-outline/samsung_NVMe_SSD_960_EVO.jpg)
 
 **SSD**(**S**olid-**S**tate **D**rive)
 
@@ -226,7 +226,7 @@ M.2 **NVMe** SSD >> M.2 **SATA** SSD = 2.5" **SATA** SSD
 
 # 그래픽 카드
 
-![rtx_4060_ti](../../images/2024-08-27-computer-components/rtx_4060_ti.jpg)
+![rtx_4060_ti](../../images/2024-08-27-computer-components-outline/rtx_4060_ti.jpg)
 
 **그래픽 카드**
 
@@ -262,7 +262,7 @@ M.2 **NVMe** SSD >> M.2 **SATA** SSD = 2.5" **SATA** SSD
 
 
 
-![SF-700R12ST_Mega_80Plus_230V_EU](../../images/2024-08-27-computer-components/SF-700R12ST_Mega_80Plus_230V_EU-1724850724412-6.jpg)
+![SF-700R12ST_Mega_80Plus_230V_EU](../../images/2024-08-27-computer-components-outline/SF-700R12ST_Mega_80Plus_230V_EU.jpg)
 
 **파워 서플라이**
 
@@ -291,7 +291,7 @@ M.2 **NVMe** SSD >> M.2 **SATA** SSD = 2.5" **SATA** SSD
 
 # 컴퓨터 케이스
 
-![darkFlash_DS900_ARGB_white](../../images/2024-08-27-computer-components/darkFlash_DS900_ARGB_white.jpg)
+![darkFlash_DS900_ARGB_white](../../images/2024-08-27-computer-components-outline/darkFlash_DS900_ARGB_white.jpg)
 
 <span style="background-color: #7cffa4">컴퓨터의 부품들을 고정하고 보호하는 **상자형의 껍데기**</span>
 
@@ -315,7 +315,7 @@ M.2 **NVMe** SSD >> M.2 **SATA** SSD = 2.5" **SATA** SSD
 
 # 컴퓨터 쿨러
 
-![Thermalright_Peerless_Assassin_120_SE_Seorin](../../images/2024-08-27-computer-components/Thermalright_Peerless_Assassin_120_SE_Seorin.jpg)
+![Thermalright_Peerless_Assassin_120_SE_Seorin](../../images/2024-08-27-computer-components-outline/Thermalright_Peerless_Assassin_120_SE_Seorin.jpg)
 
 <span style="background-color: #7cffa4">컴퓨터에 사용하는 **냉각기**</span>
 
