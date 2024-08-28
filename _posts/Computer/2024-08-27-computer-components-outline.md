@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 컴퓨터 주요 부품 개요
+title: 컴퓨터 부품 개요
 categories: Computer
 tags: [H/W, Memo]
 author: visualnnz
