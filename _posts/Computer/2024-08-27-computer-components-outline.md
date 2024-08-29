@@ -5,7 +5,7 @@ categories: Computer
 tags: [H/W, Memo]
 author: visualnnz
 header:
-  teaser: /images/2024-08-27-computer-components/desktop.png
+  teaser: /images/2024-08-27-computer-components-outline/desktop.jpg
 ---
 
 # 데스크탑 컴퓨터 부품 요약
