@@ -10,6 +10,8 @@ header:
 
 ![ASRock_B650M_PG_Riptide](../../images/2024-08-30-motherboard/ASRock_B650M_PG_Riptide.jpg)
 
+<br>
+
 # 용어
 
 <br>
