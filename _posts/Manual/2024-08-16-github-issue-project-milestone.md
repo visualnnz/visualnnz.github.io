@@ -107,7 +107,7 @@ GitHub **Project** 예시
 
 # 🏴 Milestone
 
-GitHub **MileStone**예시
+GitHub **Milestone**예시
 
 ![github-milestone](/images/2024-08-16-github-issue-project-milestone/github-milestone.png)
 
