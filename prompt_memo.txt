@@ -1,0 +1,21 @@
+[Prompt Memo]
+
+------------------------------------------------------------------------
+<gem 명령어>
+
+gem install jekyll bundler
+ 
+gem install webrick
+
+jekyll new ./
+
+bundle install
+
+------------------------------------------------------------------------
+<GitHub Pages 블로그관련 명령어>
+
+로컬 PC내에서 GitHub Pages 블로그 절대경로로 이동 명령어:
+cd ./Desktop/Programming/GitHub_Pages/visualnnz.github.io
+
+localhost 가동 명령어:
+bundle exec jekyll serve
