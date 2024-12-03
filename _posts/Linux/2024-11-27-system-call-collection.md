@@ -4708,6 +4708,8 @@ pid_t wait(int *wstatus);
 **Argument**
 
 - `wstatus`: 자식 프로세스의 종료 상태를 저장할 주소
+  - NULL: 자식 프로세스가 종료될 때 종료 상태를 저장하지 않고 자식 프로세스가 종료되었는지 여부만 확인함
+
 
 <br>
 
@@ -4728,7 +4730,7 @@ pid_t wait(int *wstatus);
 
 **Feature**
 
-- 종료 상태는 매크로(`WIFEXITED`, `WEXITSTATUS`)로 확인 능
+- 종료 상태는 매크로(`WIFEXITED`, `WEXITSTATUS`)로 확인 가능
 
 <br>
 
